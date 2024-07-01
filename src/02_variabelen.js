@@ -19,3 +19,5 @@ let firstName; // Deklaration (Defininition)
 console.log(firstName); // Ausgabe
 firstName = "Max"; // Wertzuweisung | assignment
 console.log(firstName); // Ausgabe
+let familyName = "Mütze"; // Deklaration und Wertzuweisung
+console.log("Hi ich bin " + firstName + " " + familyName +" " + "!"); // Ausgabe Hi ich bin Max Mütze !
