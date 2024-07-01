@@ -1,4 +1,4 @@
-// Tellenkomentar | Strg + #
+// Zeilenkomentar | Strg + #
 
 /**
 *
@@ -16,4 +16,6 @@
 /* Deklaration + Wertzuweisung I */
 
 let firstName; // Deklaration (Defininition)
-console.log(let firstName)); // Ausagabe
+console.log(firstName); // Ausgabe
+firstName = "Max"; // Wertzuweisung | assignment
+console.log(firstName); // Ausgabe
