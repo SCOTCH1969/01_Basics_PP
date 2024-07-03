@@ -11,16 +11,16 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 
 const prompt = require('prompt-sync')({sigint: true});
 
-console.log(" ");
+
 
 // Geben Sie über eine Prompt-Anforderung eine Zahl ein.
 let number1 = prompt("Bitte erste Zahl eingeben : ");
-number1Int = parseInt(number1);
+let number1Int= parseInt(number1);
 console.log(" ");
 
 // Geben Sie über eine Prompt-Anforderung eine zweite Zahl ein.
 let number2 = prompt("Bitte die zweite Zahl eingeben : ");
-number2Int = parseInt(number2);
+let number2Int = parseInt(number2);
 console.log(" ");
 
 // Berechnen Sie die Summe der beiden Zahlen.
