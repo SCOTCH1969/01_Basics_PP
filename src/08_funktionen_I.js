@@ -43,4 +43,19 @@ function ausgabeNamen2(firstName2) { //Parameter
 /***** Funktionen 02c *****/
 // 2c. Mehrere Parameter / Argumente
 
+// ausgabeNameParams("Max", "Mütze");
+
+// const prompt = require('prompt-sync')({sigint: true});
+// ausgabeNamenParams(prompt("Vorname?: "),prompt("Name?: "));
+
+function ausgabeNamenParams(firstName, familyName) {
+    console.log("Hallo, " + firstName + " " + familyName + " !") ;
+}
+
+/***** Funktionen 03a *****/
+// 3a. Vorbereitung -Trennen der Funktionalitäten
+// Postulat: one function = one job (uncle Bob)
+// SRP single responsibility principle
+
+// ausgabeNamenSRP("Max","Mütze");
 
