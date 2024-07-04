@@ -40,3 +40,7 @@ function ausgabeNamen2(firstName2) { //Parameter
     console.log("Hallo, " + firstName2 + " !" );   
 }
 
+/***** Funktionen 02c *****/
+// 2c. Mehrere Parameter / Argumente
+
+
