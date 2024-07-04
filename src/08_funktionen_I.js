@@ -22,10 +22,10 @@ ausgabeNamen();
 
 function ausgabeNamen() {
 
-console.log("Hallo, Marius ! ");
-console.log(" ");
-console.log("Hallo, Sara ! ");
-console.log(" ");
-console.log("Hallo, Saba ! ");
-console.log(" ");
+    let firstName = "Marius";
+
+    console.log("Hallo, " + firstName +  " ! ");
+    
 }
+
+console.log(firstName);
