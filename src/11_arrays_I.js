@@ -53,3 +53,9 @@ function output(outputStr) {
 }
 
 
+/*** 01a. Funktionalität mit Array 1 */
+// Kritik | Überlegung
+// word1,word2, .... wordN :: Semantische Struktur
+// arr[0],arr[1] ... arr[n-1] :: Numerische Struktur (0,1,2,3 ... n)
+// --> Transformation semantisches Problem --> numerisches Problem
+// output(getSentenceArr(["Ich","bin","die","coole","Maxine","Mützerich"]));
